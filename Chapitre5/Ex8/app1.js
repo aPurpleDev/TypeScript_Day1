@@ -15,7 +15,7 @@ var Bike = /** @class */ (function () {
         return 8;
     };
     __decorate([
-        readonly
+        readonly //readonly, donc pas de modif de la fonction, et pas d'erreur levée
     ], Bike.prototype, "speed", null);
     return Bike;
 }());
